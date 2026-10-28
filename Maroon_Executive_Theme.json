@@ -1,0 +1,81 @@
+{
+  "name": "Maroon Executive",
+  "dataColors": [
+    "#7A1F3D",
+    "#C9A66B",
+    "#B8B0A8",
+    "#A34A62",
+    "#8C6A3F",
+    "#5E1530",
+    "#D8C3A0",
+    "#4A4A4A"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#3A2A2E",
+  "tableAccent": "#7A1F3D",
+  "good": "#2E7D5B",
+  "neutral": "#C9A66B",
+  "bad": "#D64545",
+  "maximum": "#7A1F3D",
+  "center": "#E8D9C4",
+  "minimum": "#F6EEE3",
+  "textClasses": {
+    "callout": {
+      "fontSize": 28,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#3A2A2E"
+    },
+    "title": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#3A2A2E"
+    },
+    "header": {
+      "fontSize": 11,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#3A2A2E"
+    },
+    "label": {
+      "fontSize": 9,
+      "fontFace": "Segoe UI",
+      "color": "#5A4A4E"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#E6DDD0" } },
+            "radius": 6
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#3A2A2E" } },
+            "fontSize": 12
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#FBF8F3" } },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}
